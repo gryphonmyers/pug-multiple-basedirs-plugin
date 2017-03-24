@@ -1,6 +1,6 @@
 {
   "name": "pug-multiple-basedirs-plugin",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A pug plugin allowing basedir option to be configured as an array. The resolver will attempt to resolve the basedirs in order.",
   "main": "index.js",
   "scripts": {
@@ -18,5 +18,10 @@
   "bugs": {
     "url": "https://github.com/gryphonmyers/pug-multiple-basedirs-plugin/issues"
   },
-  "homepage": "https://github.com/gryphonmyers/pug-multiple-basedirs-plugin#readme"
+  "homepage": "https://github.com/gryphonmyers/pug-multiple-basedirs-plugin#readme",
+  "devDependencies": {
+    "fs": "0.0.2",
+    "path": "^0.12.7",
+    "pug": "^2.0.0-beta11"
+  }
 }
