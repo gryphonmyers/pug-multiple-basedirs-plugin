@@ -3,7 +3,7 @@ A pug plugin allowing basedir option to be configured as an array. The resolver 
 
 Inspired by https://github.com/pugjs/pug/issues/2499#issuecomment-241927949
 
-##Implementation
+## Implementation
 ```javascript
 var MultipleBasedirsPlugin = require("pug-multiple-basedirs-plugin");
 
