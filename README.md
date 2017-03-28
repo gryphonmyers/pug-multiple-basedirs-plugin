@@ -15,3 +15,28 @@ pug.compileFile(sourceFile, {
   ]
 });
 ```
+
+
+
+Now with a file structure of
+```
+/bower_components/my-template/foo
+/bower_components/my-other-template/baz
+/templates/my-template/foo
+```
+
+The following statements will both resolve to /templates/my-template/foo
+
+```
+extends /my-template/foo
+```
+```
+include /my-template/foo
+```
+
+While 
+```
+include /my-other-template/baz
+```
+
+will resolve to /bower_components/my-other-template/baz
