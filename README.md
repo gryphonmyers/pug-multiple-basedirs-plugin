@@ -25,7 +25,7 @@ Now with a file structure of
 /templates/my-template/foo
 ```
 
-The following statements will both resolve to /templates/my-template/foo
+The following statements will both resolve to `/templates/my-template/foo`
 
 ```
 extends /my-template/foo
@@ -39,4 +39,4 @@ While
 include /my-other-template/baz
 ```
 
-will resolve to /bower_components/my-other-template/baz
+will resolve to `/bower_components/my-other-template/baz`
