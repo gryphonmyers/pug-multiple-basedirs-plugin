@@ -40,3 +40,5 @@ include /my-other-template/baz
 ```
 
 will resolve to `/bower_components/my-other-template/baz`
+
+Note that this only affects absolute paths (paths with a leading slash).
