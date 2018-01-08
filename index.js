@@ -4,6 +4,8 @@ var pug = require('pug');
 
 module.exports = function (pluginOpts) {
   if (!pluginOpts.paths) pluginOpts.paths = [];
+  if (!Array.isArray(pluginOpts.paths)) pluginOpts.paths = [pluginOpts.paths];
+
   return {
     name: 'multiplePaths',
     resolve: function(filename, source, options){
