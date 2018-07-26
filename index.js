@@ -1,6 +1,5 @@
 var fs = require('fs');
 var path = require('path');
-var pug = require('pug');
 
 module.exports = function (pluginOpts) {
   if (!pluginOpts.paths) pluginOpts.paths = [];
